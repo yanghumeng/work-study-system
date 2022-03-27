@@ -1,0 +1,93 @@
+﻿#outschoolpost-content::-webkit-scrollbar-track-piece {
+    background-color: rgba(0, 0, 0, 0);
+    border-left: 1px solid rgba(0, 0, 0, 0);
+}
+
+#outschoolpost-content::-webkit-scrollbar {
+    width: 5px;
+    height: 13px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    display: block;
+}
+
+#outschoolpost-content::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.5);
+    background-clip: padding-box;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    min-height: 28px;
+}
+
+ #outschoolpost-content::-webkit-scrollbar-thumb:hover {
+        background-color: rgba(0, 0, 0, 0.5);
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+    }
+
+.back_history {
+    position: fixed;
+    background: #52849b;
+    padding: 5px;
+    margin: 10px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#link_outschoolpost {
+    margin: 0 auto;
+    width: 80%;
+    min-height: 10px;
+    text-align: center;
+    padding: 5px;
+}
+
+.popup__content {
+    font-size: 16px;
+}
+
+    .popup__content label span {
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    .popup__content label {
+        word-break: break-all;
+        word-wrap: break-word;
+        font-size: 16px;
+    }
+
+.popupTrigger i:hover {
+    color: #ff6a00;
+}
+
+.popup__container {
+    max-width: 500px;
+}
+
+#link_map {
+    /* width: 100%; */
+    /* position: fixed; */
+    left: 90%;
+    margin: 0 auto;
+    width: 80%;
+    min-height: 10px;
+    text-align: center;
+}
+
+    #link_map a {
+        color: #52849b;
+        border: 2px dotted #52849b;
+        border-radius: 5px;
+        padding: 3px 5px;
+        box-sizing: border-box;
+    }
+
+        #link_map a:hover {
+            color: #07c8ab;
+        }

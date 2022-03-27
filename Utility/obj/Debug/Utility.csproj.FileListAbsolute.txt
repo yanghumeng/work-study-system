@@ -1,0 +1,4 @@
+E:\ASP.NET网站\毕业设计\qgzx\Utility\bin\Debug\qgzx.Utility.dll
+E:\ASP.NET网站\毕业设计\qgzx\Utility\bin\Debug\qgzx.Utility.pdb
+E:\ASP.NET网站\毕业设计\qgzx\Utility\obj\Debug\qgzx.Utility.dll
+E:\ASP.NET网站\毕业设计\qgzx\Utility\obj\Debug\qgzx.Utility.pdb

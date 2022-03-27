@@ -1,0 +1,131 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat",sans-serif;
+}
+
+.header {
+    height: 80px;
+    background: #52849b;
+    padding: 0 20px;
+    color: #fff;
+    width: 100%;
+    position: fixed;
+    z-index: 112;
+}
+
+.logo {
+    font-size:25px;
+    margin:0;
+    line-height: 80px;
+    float: left;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.menu {
+    float: right;
+    line-height: 80px;
+    margin-right: 50px;
+    display: flex;
+}
+
+    .menu li a {
+        color: #fff;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 0 10px;
+        transition: 0.4s;
+    }
+
+.show-menu-btn, .hide-menu-btn {
+    transition: 0.4s;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.show-menu-btn {
+    float: right;
+    margin-right: 50px;
+    line-height: 80px;
+}
+
+    .show-menu-btn li i {
+        line-height: 100px;
+    }
+
+    .menu a:hover,
+    .show-menu-btn:hover,
+    .hide-menu-btn:hover {
+        color: #32c6a0;
+    }
+
+#chk {
+    position: absolute;
+    visibility: hidden;
+    z-index: -1111;
+}
+
+.content {
+    padding-top: 80px;
+    height:100%;
+}
+.divright{
+    position: absolute;
+    color: white;
+    background-color: red;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    left: 90%;
+    top: -5px;
+    text-align: center;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+@media screen and (max-width:800px) {
+    .show-menu-btn, .hide-menu-btn {
+        display: block;
+    }
+
+    .menu {
+        position: fixed;
+        height: 100vh;
+        background: #333;
+        right: -150%;
+        top: 0;
+        text-align: center;
+        padding: 80px 0;
+        line-height: normal;
+        transition: 0.7s;
+    }
+
+        .menu li a {
+            display: block;
+        }
+
+        .menu li {
+            display: block;
+            margin: 20px 0;
+            padding: 5px;
+        }
+
+    .hide-menu-btn {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top: 40px;
+        right: 40px;
+    }
+
+    #chk:checked ~ .menu {
+        width: 100%;
+        left: 0;
+        z-index: 112;
+        display: block;
+        position: absolute;
+    }
+}

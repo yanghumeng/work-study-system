@@ -1,0 +1,373 @@
+﻿
+
+@font-face {
+    font-family: 'AmbleRegular';
+    src: url( '../fonts/Amble-Light-webfont.ttf ') format("truetype");
+}
+
+.wrap {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.no-touch .nav ul:hover a {
+    color: rgba(249, 249, 249, .5);
+}
+
+    .no-touch .nav ul:hover a:hover {
+        color: rgba(249, 249, 249, 0.99);
+    }
+
+/* Adding some background color to the different menu items */
+.nav li:nth-child(6n+1) {
+    background: #313131;
+}
+
+.nav li:nth-child(6n+2) {
+    background: #333333;
+}
+
+.nav li:nth-child(6n+3) {
+    background: #353535;
+}
+
+.nav li:nth-child(6n+4) {
+    background: #373737;
+}
+
+.nav li:nth-child(6n+5) {
+    background: #393939;
+}
+/* For screen bigger than 800px */
+@media (min-width: 50em) {
+
+    /* Transforms the list into a horizontal navigation */
+    .nav ul li {
+        margin-right: 0%;
+        float: left;
+        width: 19.999999%;
+        text-align: center;
+        -webkit-transition: border .5s;
+        -moz-transition: border .5s;
+        -o-transition: border .5s;
+        -ms-transition: border .5s;
+        transition: border .5s;
+    }
+
+        .nav ul li a {
+            display: block;
+            width: auto;
+        }
+    /* hover, focused and active effects that add a little colored border to the different items */
+    .no-touch .nav li:nth-child(6n+1) a:hover,
+    .no-touch .nav li:nth-child(6n+1) a:active,
+    .no-touch .nav li:nth-child(6n+1) a:focus {
+        border-bottom: 4px solid #CE637D;
+    }
+
+    .no-touch .nav li:nth-child(6n+2) a:hover,
+    .no-touch .nav li:nth-child(6n+2) a:active,
+    .no-touch .nav li:nth-child(6n+2) a:focus {
+        border-bottom: 4px solid #DB6A85;
+    }
+
+    .no-touch .nav li:nth-child(6n+3) a:hover,
+    .no-touch .nav li:nth-child(6n+3) a:active,
+    .no-touch .nav li:nth-child(6n+3) a:focus {
+        border-bottom: 4px solid #E7718D;
+    }
+
+    .no-touch .nav li:nth-child(6n+4) a:hover,
+    .no-touch .nav li:nth-child(6n+4) a:active,
+    .no-touch .nav li:nth-child(6n+4) a:focus {
+        border-bottom: 4px solid #F17693;
+    }
+
+    .no-touch .nav li:nth-child(6n+5) a:hover,
+    .no-touch .nav li:nth-child(6n+5) a:active,
+    .no-touch .nav li:nth-child(6n+5) a:focus {
+        border-bottom: 4px solid #FB7B99;
+    }
+
+    .no-touch .nav li:nth-child(6n+6) a:hover,
+    .no-touch .nav li:nth-child(6n+6) a:active,
+    .no-touch .nav li:nth-child(6n+6) a:focus {
+        border-bottom: 4px solid rgb(9, 18, 25);
+    }
+    /* Placing the icon */
+
+    .icon {
+        padding-top: 1.4em;
+    }
+
+        .icon + span {
+            font-size: 0.924em;
+            margin-top: 2.1em;
+            -webkit-transition: margin .5s;
+            -moz-transition: margin .5s;
+            -o-transition: margin .5s;
+            -ms-transition: margin .5s;
+            transition: margin .5s;
+        }
+
+    /* Animating the height of the element*/
+    .nav ul li a {
+        height: 9em;
+    }
+
+        .no-touch .nav ul li a:hover,
+        .nav ul li a:active,
+        .nav ul li a:focus {
+            height: 10em;
+        }
+
+    /* Making the text follow the height animation */
+    .no-touch .nav a:hover .icon + span {
+        margin-top: 3.2em;
+        -webkit-transition: margin .5s;
+        -moz-transition: margin .5s;
+        -o-transition: margin .5s;
+        -ms-transition: margin .5s;
+        transition: margin .5s;
+    }
+
+    /* Positioning the icons and preparing for the animation*/
+    .nav i {
+        position: relative;
+        display: inline-block;
+        margin: 0 auto;
+        padding: 0.4em;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -o-border-radius: 50%;
+        font-size: 1.8em;
+        box-shadow: 0 0 0 30px transparent;
+        -webkit-box-shadow: 0 0 0 30px transparent;
+        -moz-box-shadow: 0 0 0 30px transparent;
+        -o-box-shadow: 0 0 0 30px transparent;
+        background: rgba(255,255,255,0.1);
+        -webkit-transform: translate3d(0, 0, 0);
+        -moz-transform: translate3d(0, 0, 0);
+        -o-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        -webkit-transition: box-shadow .6s ease-in-out;
+        -moz-transition: box-shadow .6s ease-in-out;
+        -o-transition: box-shadow .6s ease-in-out;
+        -ms-transition: box-shadow .6s ease-in-out;
+        transition: box-shadow .6s ease-in-out;
+    }
+
+    /* Animate the box-shadow to create the effect */
+    .no-touch .nav a:hover i,
+    .no-touch .nav a:active i,
+    .no-touch .nav a:focus i {
+        box-shadow: 0 0 0 0 rgba(255,255,255,0.2);
+        -webkit-box-shadow: 0 0 0 0 rgba(255,255,255,0.2);
+        -moz-box-shadow: 0 0 0 0 rgba(255,255,255,0.2);
+        -o-box-shadow: 0 0 0 0 rgba(255,255,255,0.2);
+        -webkit-transition: box-shadow .4s ease-in-out;
+        -moz-transition: box-shadow .4s ease-in-out;
+        -o-transition: box-shadow .4s ease-in-out;
+        -ms-transition: box-shadow .4s ease-in-out;
+        transition: box-shadow .4s ease-in-out;
+    }
+}
+/*meain-menu*/
+.main-bg {
+    height: 100%;
+    position: relative;
+    background: url('../img/01.jpg');
+    background-position: top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-size: 100% 100%;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family: 'AmbleRegular';
+        src: url( '../fonts/Amble-Light-webfont.ttf ') format("truetype");
+    }
+}
+
+.main.clearfix {
+    padding: 15% 2%;
+    font-family: 'AmbleRegular';
+}
+
+.icon-menu {
+}
+/* Global CSS that are applied for all screen sizes */
+.nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 1.5em;
+    font-weight: 300;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.nav li span {
+    display: block;
+}
+
+.nav ul li a {
+    display: block;
+    color: rgba(249, 249, 249, .9);
+    text-decoration: none;
+    -webkit-transition: color .5s, background .5s, height .5s;
+    -moz-transition: color .5s, background .5s, height .5s;
+    -o-transition: color .5s, background .5s, height .5s;
+    -ms-transition: color .5s, background .5s, height .5s;
+    transition: color .5s, background .5s, height .5s;
+}
+
+.nav i {
+    /* Make the font smoother for Chrome */
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+#menu {
+    text-align: center;
+    display: block;
+    height: 244px;
+}
+/* Remove the blue Webkit background when element is tapped */
+
+a, button {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+/* Hover effect for the whole navigation to make the hovered item stand out */
+
+.no-touch .nav ul:hover a {
+    color: rgba(249, 249, 249, .5);
+}
+
+    .no-touch .nav ul:hover a:hover {
+        color: rgba(249, 249, 249, 0.99);
+    }
+
+/* Adding some background color to the different menu items */
+.nav li:nth-child(6n+1) {
+    background: #313131;
+}
+
+.nav li:nth-child(6n+2) {
+    background: #333333;
+}
+
+.nav li:nth-child(6n+3) {
+    background: #353535;
+}
+
+.nav li:nth-child(6n+4) {
+    background: #373737;
+}
+
+.nav li:nth-child(6n+5) {
+    background: #393939;
+}
+/* For screen bigger than 800px */
+@media (min-width: 50em) {
+
+    /* Transforms the list into a horizontal navigation */
+    .nav ul li {
+        margin-right: 0%;
+        float: left;
+        width: 19.999999%;
+        text-align: center;
+        -webkit-transition: border .5s;
+        -moz-transition: border .5s;
+        -o-transition: border .5s;
+        -ms-transition: border .5s;
+        transition: border .5s;
+    }
+
+        .nav ul li a {
+            display: block;
+            width: auto;
+        }
+    /* hover, focused and active effects that add a little colored border to the different items */
+    .no-touch .nav li:nth-child(6n+1) a:hover,
+    .no-touch .nav li:nth-child(6n+1) a:active,
+    .no-touch .nav li:nth-child(6n+1) a:focus {
+        border-bottom: 4px solid #CE637D;
+    }
+
+    .no-touch .nav li:nth-child(6n+2) a:hover,
+    .no-touch .nav li:nth-child(6n+2) a:active,
+    .no-touch .nav li:nth-child(6n+2) a:focus {
+        border-bottom: 4px solid #DB6A85;
+    }
+
+    .no-touch .nav li:nth-child(6n+3) a:hover,
+    .no-touch .nav li:nth-child(6n+3) a:active,
+    .no-touch .nav li:nth-child(6n+3) a:focus {
+        border-bottom: 4px solid #E7718D;
+    }
+
+    .no-touch .nav li:nth-child(6n+4) a:hover,
+    .no-touch .nav li:nth-child(6n+4) a:active,
+    .no-touch .nav li:nth-child(6n+4) a:focus {
+        border-bottom: 4px solid #F17693;
+    }
+
+    .no-touch .nav li:nth-child(6n+5) a:hover,
+    .no-touch .nav li:nth-child(6n+5) a:active,
+    .no-touch .nav li:nth-child(6n+5) a:focus {
+        border-bottom: 4px solid #FB7B99;
+    }
+
+    .no-touch .nav li:nth-child(6n+6) a:hover,
+    .no-touch .nav li:nth-child(6n+6) a:active,
+    .no-touch .nav li:nth-child(6n+6) a:focus {
+        border-bottom: 4px solid rgb(9, 18, 25);
+    }
+    /* Placing the icon */
+
+    .icon {
+        padding-top: 1.4em;
+    }
+
+        .icon + span {
+            font-size: 0.924em;
+            margin-top: 2.1em;
+            -webkit-transition: margin .5s;
+            -moz-transition: margin .5s;
+            -o-transition: margin .5s;
+            -ms-transition: margin .5s;
+            transition: margin .5s;
+        }
+
+    .nav ul li a {
+        height: 9em;
+    }
+
+        .no-touch .nav ul li a:hover,
+        .nav ul li a:active,
+        .nav ul li a:focus {
+            height: 10em;
+        }
+
+    .no-touch .nav a:hover .icon + span {
+        margin-top: 3.2em;
+        -webkit-transition: margin .5s;
+        -moz-transition: margin .5s;
+        -o-transition: margin .5s;
+        -ms-transition: margin .5s;
+        transition: margin .5s;
+    }
+}
+

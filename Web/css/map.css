@@ -1,0 +1,62 @@
+﻿#myPageTop{
+    position: absolute;
+    z-index:10;
+    top:80px;
+    left:50%;
+    transform: translateX(-50%);
+    background: #fff;
+    width:70%;
+    padding:20px;
+}
+#myPageTop a{
+    display: inline-block;
+    text-align: center;
+    padding:10px 20px;
+    color:#fff;
+    background: #ff950e;
+    text-decoration:none;
+}
+#myPageTop #show{
+    display: block;
+}
+#myPageTop input{
+    font-size:14px;
+    padding:6px 8px;
+    border:1px solid #ccc;
+    outline:none;
+}
+.pageShow h3{
+    margin:20px 0 10px;
+}
+#panel {
+    position: absolute;
+    background-color: white;
+    max-height: 90%;
+    overflow-y: auto;
+    top: 10px;
+    right: 10px;
+    width: 280px;
+}
+.infowindow-content{
+    padding:12px 8px;
+    color:#fff;
+    background:#ccc;
+}
+
+h3{
+    font-family: "Microsoft YaHei";
+    !important;
+}
+.pageShow{
+    display:none;
+}
+.back_history {
+    position: fixed;
+    background: #52849b;
+    padding: 5px;
+    margin: 10px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}

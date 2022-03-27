@@ -1,0 +1,106 @@
+﻿.back_history {
+    position: fixed;
+    background: #52849b;
+    padding: 5px;
+    margin: 10px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.publish-history {
+    margin: 0 auto;
+    max-height: 700px;
+    width: 80%;
+    overflow-y: scroll;
+    justify-content: space-around;
+    align-items: center;
+}
+
+    .publish-history::-webkit-scrollbar-track-piece {
+        background-color: rgba(0, 0, 0, 0);
+        border-left: 1px solid rgba(0, 0, 0, 0);
+    }
+
+    .publish-history::-webkit-scrollbar {
+        width: 5px;
+        height: 13px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        display: block;
+    }
+
+    .publish-history::-webkit-scrollbar-thumb {
+        background-color: rgba(0, 0, 0, 0.5);
+        background-clip: padding-box;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        min-height: 28px;
+    }
+
+        .publish-history::-webkit-scrollbar-thumb:hover {
+            background-color: rgba(0, 0, 0, 0.5);
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+        }
+
+.publish-history-content {
+    margin: 10px auto;
+    min-height: 110px;
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 2px;
+}
+
+.footer-content {
+    width: 50%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    font-size: 1.5em;
+    box-sizing: border-box;
+    line-height: 1.5em;
+    vertical-align: middle;
+    background: #afaeae;
+}
+
+    .footer-content label {
+        color: #ffffff;
+    }
+
+        .footer-content label:hover {
+            color: #52849b;
+            cursor:pointer;
+        }
+
+.header-content {
+    width: 50%;
+    background: #fff;
+    height: 100%;
+    float: left;
+    text-align: left;
+    padding: 10px;
+}
+
+.content-content {
+    width: 50%;
+    min-height: 30px;
+    float: left;
+    padding: 5px 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+    .content-content span {
+        width: 80%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }

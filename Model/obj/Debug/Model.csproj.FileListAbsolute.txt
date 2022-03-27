@@ -1,0 +1,4 @@
+E:\ASP.NET网站\毕业设计\qgzx\Model\bin\Debug\qgzx.Model.dll
+E:\ASP.NET网站\毕业设计\qgzx\Model\bin\Debug\qgzx.Model.pdb
+E:\ASP.NET网站\毕业设计\qgzx\Model\obj\Debug\qgzx.Model.dll
+E:\ASP.NET网站\毕业设计\qgzx\Model\obj\Debug\qgzx.Model.pdb

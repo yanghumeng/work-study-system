@@ -1,0 +1,12 @@
+E:\ASP.NET网站\毕业设计\qgzx\BLL\bin\Debug\qgzx.BLL.dll
+E:\ASP.NET网站\毕业设计\qgzx\BLL\bin\Debug\qgzx.BLL.pdb
+E:\ASP.NET网站\毕业设计\qgzx\BLL\bin\Debug\MySql.Data.dll
+E:\ASP.NET网站\毕业设计\qgzx\BLL\bin\Debug\qgzx.DAL.dll
+E:\ASP.NET网站\毕业设计\qgzx\BLL\bin\Debug\qgzx.Model.dll
+E:\ASP.NET网站\毕业设计\qgzx\BLL\bin\Debug\qgzx.Utility.dll
+E:\ASP.NET网站\毕业设计\qgzx\BLL\bin\Debug\qgzx.DAL.pdb
+E:\ASP.NET网站\毕业设计\qgzx\BLL\bin\Debug\qgzx.Model.pdb
+E:\ASP.NET网站\毕业设计\qgzx\BLL\bin\Debug\qgzx.Utility.pdb
+E:\ASP.NET网站\毕业设计\qgzx\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+E:\ASP.NET网站\毕业设计\qgzx\BLL\obj\Debug\qgzx.BLL.dll
+E:\ASP.NET网站\毕业设计\qgzx\BLL\obj\Debug\qgzx.BLL.pdb

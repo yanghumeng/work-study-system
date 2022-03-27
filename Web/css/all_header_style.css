@@ -1,0 +1,48 @@
+﻿.services-section {
+    background-size: cover;
+    padding: 30px 0;
+     background:#eee;
+     height: auto;
+}
+
+.inner-width {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.section-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.border {
+    width: 160px;
+    height: 2px;
+    background: #82ccdd;
+    margin: 40px auto;
+}
+
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+.txt-left-side .form-left-to-w3l input{
+    cursor:default;
+    font-size: 18px;
+    border-radius:0;
+}
+#changemessage,#changepassword{
+    margin:5px 40px;
+    border:0;
+    border-radius:10px;
+    color:#fff;
+    background:#51839b;
+    cursor:pointer;
+}
+
+
